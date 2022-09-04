@@ -227,7 +227,8 @@
 
  /*     VERSION HISTORY
   *
-  *     1.0.0       04 September 2022           Official first 
+  *     1.0.0       04 September 2022           Official first
+  *     1.0.1	    04 September 2022	        Correcting spelling mistakes 
   */
 
  /* Validates if a source value and target value are equal

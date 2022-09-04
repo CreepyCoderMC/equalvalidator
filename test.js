@@ -1,4 +1,4 @@
-import valueIsEquel from './equalvalidator.js';
+import valueIsEqual from './equalvalidator.js';
 
 console.log( "Testing Condition  1 Passed = " + valueIsEqual(  "Hallo world" , "Hallo world"         ) );
 console.log( "Testing Condition  2 Passed = " + !valueIsEqual( "Hallo world" , "Hallo World"         ) );
