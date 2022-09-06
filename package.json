@@ -1,8 +1,8 @@
 {
   "type":         "module",
   "name":         "@teamcoder/equalvalidator",
-  "version":      "1.0.1",
-  "description":  "This module is small but easy to use. The purpose of this module is to check if a target string equals a source string, it can optionally also do none case sensitive comparing.",
+  "version":      "1.0.2",
+  "description":  "This module is small but easy to use. The purpose of this module is to check if a target value equals a source value, it can optionally also do none case sensitive comparing.",
   "main":         "equelvalidator.js",
 
   "keywords": [
@@ -46,7 +46,8 @@
 
   "os": [
                   "windows",
-                  "linux"
+                  "linux",
+                  "raspberrypi"
   ]
 
 }

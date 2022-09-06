@@ -229,11 +229,12 @@
   *
   *     1.0.0       04 September 2022           Official first
   *     1.0.1	    04 September 2022	        Correcting spelling mistakes 
+  *     1.0.2       06 September 2022           Correcting documentation
   */
 
  /* Validates if a source value and target value are equal
-  * @param  { All     } source        The source value to be checked
-  * @param  { All     } target        The target value to be checked
+  * @param  { Any     } source        The source value to be checked
+  * @param  { Any     } target        The target value to be checked
   * @param  { Boolean } caseSensitive If the check must be case sensitive ( optional , default = true )
   * @return { Boolean }               Validation passed or failed
   */

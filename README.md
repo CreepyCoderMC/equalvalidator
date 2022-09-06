@@ -1,5 +1,5 @@
 # Equal Validator
-This module is small but easy to use. The purpose of this module is to check if a target string equals a source string, it can optionally also do none case sensitive comparing.
+This module is small but easy to use. The purpose of this module is to check if a target value equals a source value, it can optionally also do none case sensitive comparing.
 ## Validation processes
 The code contains two methods to check if two string are equal.
 ### Compare method 1
@@ -37,8 +37,8 @@ Testing Condition 10 Passed = true
 ```
 ## Function Parameters
 ```
-@param  { All     } source        The source value to be checked
-@param  { All     } target        The target value to be checked
+@param  { Any     } source        The source value to be checked
+@param  { Any     } target        The target value to be checked
 @param  { Boolean } caseSensitive If the check must be case sensitive ( optional , default = true )
 @return { Boolean }               Validation passed or failed
 ```
@@ -47,11 +47,12 @@ Testing Condition 10 Passed = true
 |----------|------------------------|-------------------------------------|
 | 1.0.0    | 04 September 2022      | Official first release              |
 | 1.0.1    | 04 September 2022      | Correcting spelling mistakes        |
+| 1.0.2    | 06 September 2022      | Correcting documentation            |
 ## How To Install
 Run the following command in a terminal or command prompt in the folder you want to install the module to.
 > npm i @teamcoder/equalvalidator
 ## Operating Systems Tested On
->Windows and Linux
+>Windows, Linux and RaspberryPi
 ## License Information
-containvalidator © 2022 by Adriaan J. van Rensburg (CreepyCoderMC) is licensed under CC BY-NC-ND 4.0.
+ContainValidator © 2022 by Adriaan J. van Rensburg (CreepyCoderMC) is licensed under CC BY-NC-ND 4.0.
 > To view a online copy of this license, visit [http://creativecommons.org/licenses/by-nc-nd/4.0/](http://creativecommons.org/licenses/by-nc-nd/4.0/)
