@@ -230,6 +230,7 @@
   *     1.0.0       04 September 2022           Official first
   *     1.0.1	    04 September 2022	        Correcting spelling mistakes 
   *     1.0.2       06 September 2022           Correcting documentation
+  *     1.0.3       09 September 2022           Fixed package.json so that npm can install on any os
   */
 
  /* Validates if a source value and target value are equal
