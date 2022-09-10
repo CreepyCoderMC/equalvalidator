@@ -232,6 +232,7 @@
   *     1.0.2       06 September 2022           Correcting documentation
   *     1.0.3       09 September 2022           Fixed package.json so that npm can install on any os
   *     1.0.4       10 September 2022           Fixed code to be proper npm packadge
+  *     1.0.5       10 September 2022           Fixed package.json so that license entry is valid
   */
 
  /* Validates if a source value and target value are equal
