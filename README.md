@@ -9,7 +9,7 @@ This method is not case sensitive so both source value and target value can be a
 ## Code sample
 This following code is actually how I tested that all methods correctly functioned as intended, is also provided in this module.
 ```
-import valueIsEqual from './node_modules/@teamcoder/equalvalidator/equalvalidator.js';
+import { valueIsEqual } from '@teamcoder/equalvalidator';
 
 console.log( "Testing Condition  1 Passed = " + valueIsEqual(  "Hallo world" , "Hallo world"         ) );
 console.log( "Testing Condition  2 Passed = " + !valueIsEqual( "Hallo world" , "Hallo World"         ) );
@@ -40,6 +40,7 @@ Testing Condition 10 Passed = true
 @param  { Any     } source        The source value to be checked
 @param  { Any     } target        The target value to be checked
 @param  { Boolean } caseSensitive If the check must be case sensitive ( optional , default = true )
+
 @return { Boolean }               Validation passed or failed
 ```
 ## Version History
@@ -49,6 +50,7 @@ Testing Condition 10 Passed = true
 | 1.0.1    | 04 September 2022      | Correcting spelling mistakes                          |
 | 1.0.2    | 06 September 2022      | Correcting documentation                              |
 | 1.0.3    | 09 September 2022      | Fixed package.json so that npm can install on any os  |
+| 1.0.4    | 10 September 2022      | Fixed code to be proper npm packadge                  |
 ## How To Install
 Run the following command in a terminal or command prompt in the folder you want to install the module to.
 > npm i @teamcoder/equalvalidator

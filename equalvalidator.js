@@ -231,16 +231,18 @@
   *     1.0.1	    04 September 2022	        Correcting spelling mistakes 
   *     1.0.2       06 September 2022           Correcting documentation
   *     1.0.3       09 September 2022           Fixed package.json so that npm can install on any os
+  *     1.0.4       10 September 2022           Fixed code to be proper npm packadge
   */
 
  /* Validates if a source value and target value are equal
   * @param  { Any     } source        The source value to be checked
   * @param  { Any     } target        The target value to be checked
   * @param  { Boolean } caseSensitive If the check must be case sensitive ( optional , default = true )
+  * 
   * @return { Boolean }               Validation passed or failed
   */
 
-export default function valueIsEqual( source , target , caseSensitive = true ) {
+export function valueIsEqual( source , target , caseSensitive = true ) {
 
     // Makes source value and target value lower case if validation is not case sensitive 
     if( !caseSensitive ) {
