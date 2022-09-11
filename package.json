@@ -1,36 +1,43 @@
 {
-  "type": "module",
-  "name": "@teamcoder/equalvalidator",
-  "version": "1.0.6",
-  "description": "This module is small but easy to use. The purpose of this module is to check if a target value equals a source value, it can optionally also do none case sensitive comparing.",
-  "main": "equelvalidator.js",
+
+  "type":         "module",
+  "name":         "@teamcoder/equalvalidator",
+  "version":      "1.0.7",
+  "description":  "This module is small but easy to use. The purpose of this module is to check if a target value equals a source value, it can optionally also do none case sensitive comparing.",
+  "main":         "equelvalidator.js",
+
   "keywords": [
-    "value",
-    "string",
-    "number",
-    "boolean",
-    "case",
-    "array",
-    "sensitive",
-    "equal",
-    "validator",
-    "node.js",
-    "javascript"
+                  "value",
+                  "string",
+                  "number",
+                  "boolean",
+                  "case",
+                  "array",
+                  "sensitive",
+                  "equal",
+                  "validator",
+                  "node.js",
+                  "javascript"
   ],
-  "author": "CreepyCoderMC",
-  "license": "CC-BY-NC-ND-4.0",
-  "homepage": "https://github.com/CreepyCoderMC",
-  "url": "https://github.com/CreepyCoderMC/equalvalidator/issues",
-  "email": "creepycodermc@gmail.com",
+
+  "author":       "CreepyCoderMC",
+  "license":      "CC-BY-NC-ND-4.0",
+  "homepage":     "https://github.com/CreepyCoderMC",
+  "url":          "https://github.com/CreepyCoderMC/equalvalidator/issues",
+  "email":        "creepycodermc@gmail.com",
+
   "funding": {
-    "type": "PayPal Donation",
-    "url": "https://www.paypal.com/donate/?hosted_button_id=NNPJXD2CLSXRA"
+    "type":       "PayPal Donation",
+    "url":        "https://www.paypal.com/donate/?hosted_button_id=NNPJXD2CLSXRA"
   },
+
   "repository": {
-    "type": "git",
-    "url": "https://github.com/CreepyCoderMC/equalvalidator"
+    "type":       "git",
+    "url":        "https://github.com/CreepyCoderMC/equalvalidator"
   },
+
   "scripts": {
-    "test": "node test.js"
+    "test":       "node test.js"
   }
+
 }
