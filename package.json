@@ -2,7 +2,7 @@
 
   "type":         "module",
   "name":         "@teamcoder/equalvalidator",
-  "version":      "1.0.7",
+  "version":      "1.0.8",
   "description":  "This module is small but easy to use. The purpose of this module is to check if a target value equals a source value, it can optionally also do none case sensitive comparing.",
   "main":         "equelvalidator.js",
 

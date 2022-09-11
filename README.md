@@ -56,7 +56,7 @@ Without this entry in the package file you will get the following error if you t
 (node:15500) Warning: To load an ES module, set "type": "module" in the package.json or use the .mjs extension.
 (Use 'node --trace-warnings ...' to show where the warning was created)
 C:\Users\ ... \equalvalidator\equalvalidator.js:1
-import { valueIsEqual } from '@teamcoder/containvalidator';
+import { valueIsEqual } from '@teamcoder/equalvalidator';
 ```
 ## Version History
 | Version  | Date                   | Remark                                                                                                |
@@ -69,6 +69,7 @@ import { valueIsEqual } from '@teamcoder/containvalidator';
 | 1.0.5    | 10 September 2022      | Fixed package.json so that license entry is valid                                                     |
 | 1.0.6    | 10 September 2022      | Correcting documentation                                                                              |
 | 1.0.7    | 11 September 2022      | Removed Default from export function in equalvalidator.js file                                        |
+| 1.0.8    | 11 September 2022      | Correcting documentation                                                                              |
 ## How To Install
 Run the following command in a terminal or command prompt in the folder you want to install the module to.
 > npm i @teamcoder/equalvalidator

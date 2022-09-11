@@ -235,6 +235,7 @@
   *     1.0.5       10 September 2022           Fixed package.json so that license entry is valid
   *     1.0.6       10 September 2022           Correcting documentation
   *     1.0.7       11 September 2022           Removed Default from export function in equalvalidator.js file
+  *     1.0.8       11 September 2022           Correcting documentation
   */
 
  /* Validates if a source value and target value are equal
